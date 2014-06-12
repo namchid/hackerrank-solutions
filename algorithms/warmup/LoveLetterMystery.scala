@@ -14,7 +14,8 @@ object Solution {
 
 		for(i <- 0 until n) {
 			val input = readLine
-			println(countChanges(input, 0, input.length()-1))
+			println(countChanges(input, 0, input.length() - 1))
 		}
 	}
+
 }
