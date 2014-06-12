@@ -18,11 +18,11 @@ void displayPathtoPrincess(int n, vector <string> grid) {
     while((mX < 0 || pX < 0) && i < grid.size()) {
         if(mX < 0) {
             mY = i;
-            mX = static_cast<int>(grid[i].find('m')) % n;
+            mX = static_cast<int>(grid[i].find('m'));
         }
         if(pX < 0) {
             pY = i;
-            pX = static_cast<int>(grid[i].find('p')) % n;
+            pX = static_cast<int>(grid[i].find('p'));
         }
         ++i;
     }
