@@ -1,0 +1,1 @@
+len lst = foldl(\acc x -> acc+1) 0 lst
