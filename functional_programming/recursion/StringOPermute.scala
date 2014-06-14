@@ -1,5 +1,5 @@
 // 6.13.14
-// The trick: no recursion period.
+// So although this is in the recursion section, the trick is no recursion.
 object Solution {
 
 	def split(str: String): Unit = {
@@ -15,8 +15,8 @@ object Solution {
 	def main(args: Array[String]): Unit = {
 		val t = readInt
 		for(i <- 0 until t) {
-            val str = readLine
-            if(str.length < 2) println(str)
+			val str = readLine
+			if(str.length < 2) println(str)
 			else split(str)
 		}
 	} 
